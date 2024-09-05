@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+
+.principal {
+    height: 100vh;
+    width: 100vw;
+}
+
+.lado-esquerdo {
+    display: inline-block;
+    width: 60%;
+    /* position: relative; 
+    top: 40%; */
+    left: 136px;
+    padding-left: 136px;
+    margin-top: 25%;
+}
+
+.lado-direito {
+    display: inline-block;
+    background: rgba(93, 93, 125, 0.16);
+    width: 40%;
+    height: 100vh;
+    position: absolute;
+}
+
+img {
+    position: relative;
+    top: 20%;
+    right: 145px;
+   
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 80px;
+    color: #5D5D7D;
+    width: 368px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    width: 600px;
+    color: #5D5D7D;
+    opacity: 60%;
+    margin-bottom: 15px;
+}
+
+button {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35.57px;
+    background: #9499EA;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    width: 268px;
+    border-radius: 30px;
+    height: 60px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: .7;
+}
+
+button:active {
+    opacity: .5;
+}
+
+
+header {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 41.5px;
+    color: #5D5D7D;
+    cursor: pointer;
+    margin: 24px 41px 0 57px;
+}
+
+.menu-2 {
+    opacity: 40%;
+}
+
+a {
+    margin-right: 41px;
+}
+
+a:hover {
+    opacity: .4;
+}
+
+a:active {
+    opacity: .2;
+}
+ 
+            /* feito do meu jeito */
+
+/* @media screen and (max-width:900px) {
+
+    .lado-esquerdo {
+        display: block;
+        margin: 58px 53px 0 54px;
+        padding: 0;
+    }
+
+    h1 {
+        width: 268px;
+        text-align: center;
+        font-size: 36px;
+        line-height: 52px;
+    }
+
+    p {
+        width: 296px;
+        text-align: center;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    header {
+        display: none;
+    }
+
+    .lado-direito {
+        display: block;
+    }
+
+
+    img {
+        width: 271px;
+        height: 322.95px;
+        left: 51px;
+        right: 53px;
+        padding: 40px:
+    }
+
+} */
+
+        /* jeito do rodolfo */
+
+@media screen and (max-width:900px){
+
+    .lado-esquerdo {
+        width: 100%;
+        height: 50%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .lado-direito {
+        display: block;
+        height: auto;
+        width: 100%;
+        position: static;
+        padding: 40px;
+    }
+
+    img {
+        position: static;
+        max-width: 90%;
+    }
+
+    header {
+        display: none;
+    }
+
+    h1 {
+        font-size: 36px;
+        line-height: 52px;
+        width: auto;
+        margin: 58px 50px 0 50px;
+        text-align: center;
+    }
+
+    p{
+        margin: 15px 40px;
+        width: auto;
+        text-align: center;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    button {
+        margin: 0 auto;
+        display: block;
+    }
+
+
+}
