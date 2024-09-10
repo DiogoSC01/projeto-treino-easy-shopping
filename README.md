@@ -12,5 +12,7 @@
 <p>-CSS</p>
 <br>
 <br>
-<img src="https://github.com/DiogoSC01/projeto-treino-easy-shopping/blob/master/img/Design%20sem%20nome%20(1).png?raw=true"  width="800px" />
-<img src="https://github.com/DiogoSC01/projeto-treino-easy-shopping/blob/master/img/Minimalista%20Branco%20Seu%20Lembrete%20De%20Hist%C3%B3ria.png?raw=true" width="500px" />
+
+<img src="https://github.com/DiogoSC01/projeto-treino-easy-shopping/blob/master/img/Design%20sem%20nome%20(2).png?raw=true"/>
+<br>
+<p> Projeto simples, mais com o objetivo de treinar meus conhecimentos em HTML e CSS !! </p>
