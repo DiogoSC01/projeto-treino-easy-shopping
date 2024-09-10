@@ -10,3 +10,7 @@
 <h3> Tecnologias usadas: </h3>
 <p>-HTML</p>
 <p>-CSS</p>
+<br>
+<br>
+<img src="https://github.com/DiogoSC01/projeto-treino-easy-shopping/blob/master/img/Design%20sem%20nome%20(1).png?raw=true"  width="800px" />
+<img src
